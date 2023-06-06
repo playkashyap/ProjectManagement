@@ -18,6 +18,7 @@ import { PositionModuleComponent } from './position-module/position-module.compo
 import {MatTableModule} from '@angular/material/table';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import { DepartmentModuleComponent } from './department-module/department-module.component';
+import { LoginpageComponent } from './loginpage/loginpage.component';
 
 
 
@@ -26,6 +27,7 @@ import { DepartmentModuleComponent } from './department-module/department-module
   declarations: [
     AppComponent,
     HeaderComponent,
+    LoginpageComponent,
     
 
     

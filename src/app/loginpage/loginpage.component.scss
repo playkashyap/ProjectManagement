@@ -1,0 +1,50 @@
+.body{
+    background: #ECF0F3;
+}
+
+.loginbtn{
+    height: 50px;
+    width: 390px;
+    border-radius: 20px;
+    background-color: #474A55;
+    color: white;
+    border-width: 0;
+
+
+    &:hover {
+        box-shadow:  0px 7px 10px -7px rgba(0, 0, 0, 0.59);
+    }
+}
+
+.inputfls{
+    height: 50px; 
+    width: 390px; 
+    margin: auto;
+    border-radius: 20px;
+    border-width: 0;
+    &:hover{
+        box-shadow: #474A55;
+    }
+}
+
+.backcard{
+    background-color: rgba($color: #E2E3E7, $alpha: 0.5); 
+    border-radius: 25px;
+    border-width: 1px;
+    border-color: black;
+    
+}
+.inputcontainer {
+    position: relative;
+  }
+  
+  .inputcontainer i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+  }
+  
+  .inputcontainer input {
+    padding-left: 30px; /* Adjust the padding to make space for the icon */
+  }
